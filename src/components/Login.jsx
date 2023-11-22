@@ -8,7 +8,7 @@ export default function Login() {
   const loginUser = (e) => {
     e.preventDefault();
     //POST reuqest
-    fetch(`${BASE_URL}/users/login`, {
+    fetch(`${BASE_URL}/api/users/login`, {
       method: "POST",
       headers: {"Content-Type": "application/json"},
       body: JSON.stringify({
