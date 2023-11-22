@@ -12,5 +12,5 @@
 let BASE_URL =
   process.env.NODE_ENV === "development"
     ? "http://localhost:8000"
-    : "https://test-back-k3ux.onrender.com";
+    : "https://test-hello-wbfk.onrender.com";
 export default BASE_URL;
