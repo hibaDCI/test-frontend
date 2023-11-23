@@ -12,5 +12,5 @@
 let BASE_URL =
   process.env.NODE_ENV === "development"
     ? "http://localhost:8000"
-    : "https://record-server-l9un.onrender.com";
+    : "https://record-server2.onrender.com";
 export default BASE_URL;
