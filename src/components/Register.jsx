@@ -15,6 +15,7 @@ export default function Register() {
       password: e.target.password.value,
     };
     //making POST request
+    //http://localhost:8000/api/users/register
     fetch(`${BASE_URL}/api/users/register`, {
       method: "POST",
       headers: {"Content-Type": "application/json"},
